@@ -7,7 +7,7 @@
 
 ## Sitemap
 	* homepage
-	* about/contact
-	* donate
+	* about
+	* donate/contact
 	* css/default.css
 	* img/ 
