@@ -1,4 +1,5 @@
-## animal shelter
+## Animal shelter
+	*Dogs/Cats
 
 ## Teammates
 	* Veronica 
@@ -6,7 +7,7 @@
 
 ## Sitemap
 	* homepage
-	* about
-	* contact
+	* about/contact
+	* donate
 	* css/default.css
 	* img/ 
