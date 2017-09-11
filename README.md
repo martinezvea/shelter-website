@@ -1,13 +1,12 @@
-# Our Causes Project
+## animal shelter
 
 ## Teammates
-
-* Jack
-* Veronica
+	* Veronica 
+	* Jack
 
 ## Sitemap
-
-* homepage (index.html)
-* about
-* donate
-* contact
+	* homepage
+	* about
+	* contact
+	* css/default.css
+	* img/ 
