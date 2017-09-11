@@ -10,3 +10,4 @@
 * homepage (index.html)
 * about
 * donate
+* contact
