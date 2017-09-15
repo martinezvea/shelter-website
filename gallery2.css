@@ -1,0 +1,130 @@
+h1{
+	padding-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: #AF4E63;
+}
+
+
+
+body{
+	background-color: #415083;
+	text-align: center;
+	color: #FFF;
+	font-family: "Voces";
+}
+.profile{
+	width: 300px;
+	height: 350px;
+	border: 2px solid gold;
+	margin: 10px;
+
+}
+.profile header{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-size: cover;
+}
+.profile header .color{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px 0;
+	background-color: rgba(155,155,155,0.5);
+	display: none;
+	width: 40%;
+}
+.profile:hover .color{
+	display: inline-block;
+
+}
+.propifle footer{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	color: white;
+	background-color: pink;
+}
+
+#husky1 header{
+	background-image: url(http://howsmarriedlife.net/wp-content/uploads/2016/11/Pets.jpg);
+}
+#husky2 header{
+	background-image: url(http://media1.santabanta.com/full1/Miscellaneous/Baby/baby-152a.jpg);
+}
+#husky3 header{
+	background-image: url(http://www.petsafe.net/blog/wp-content/uploads/IMG_17811.jpg);
+}
+#husky4 header{
+	background-image: url(http://lovingpetmobilecare.com/clients/11983/images/slideshows/67200/3.jpg);
+}
+
+
+.dog1{
+	width: 40%;
+}
+
+nav{
+	position: absolute;
+	right: 3vw;
+	top: 3vw;
+
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	padding-left: 20px;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+nav li a{
+	color: #F2F2F4;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+nav li a:hover, a:active{
+	background-color: #99B5C3;
+}
+
+header{
+	border: solid;
+	border-width: 2px;
+	background-color: #99B5C3;
+	border-color: #8C8F9C;
+	text-align: left;
+}
+
+#address {
+	margin-left:20px;
+	font-family:'Voces', cursive;
+	color: #F9F8F7;
+	width: 40%;
+	float: left;
+
+}
+
+div.foot {
+	border-style: solid;
+	border-color: #8C8F9C;
+	background-color: #AF4E63;
+	z-index: -1;
+	height: 85px;
+}
+
+
+div.icons {
+	float: right;
+	width: 20%;
+	padding: 1.2em;
+}
