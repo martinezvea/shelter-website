@@ -13,38 +13,57 @@ header{
 
 body{
 	background-color: #415083;
+	color: #FFF;
 }
 
+h1 {
+	padding-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: #AF4E63;
+}
+
+h2, h4 {
+	font-family: "Voces";
+}
+
+p {
+	font-family: "Voces";
+}
 .donate h2{
 	overflow: hidden;
 	text-align: center;
 	float: center;
 	padding: 30px;
 	text-decoration: none;
+	font-family: "Voces";
+	font-size: 30px;
 }
 
 .round ul{
 	list-style-type: none;
-	margin: 30px;
-	padding: 0;
+	padding: 25px;
+	margin: 10px;
 	overflow: hidden;
-	
+	font-family: "Voces";
 }
 
-
 .round a{
-	margin: 30px;
-	border: solid;
+	margin: 50px;
+	border-width: 2px;
+	border-style: solid;
 	border-radius: 50%;
 	border-color: white;
-	font-size: 3em;
+	font-size: 2em;
 	text-decoration-line: none;
+	color: #AF4E63;
 	background-color: lightblue;
+	padding: 15px;
 }
 
 ul{
 	list-style-type: none;
-	margin: 0;
+	margin: 10px;
 	padding: 0;
 	overflow: hidden;
 }
@@ -78,30 +97,11 @@ nav li a{
 	font-size: 1.2em;
 }
 
-nav li a:hover, a:active{
-	background-color: #99B5C3;
-}
+nav li a:hover {
+	text-decoration: underline;
+	color: #DE826E;
+	padding: 0 0 2px 0px;
 
-nav a:link, a:visited{
-	display: block;
-	font-weight: bold;
-	color: #fff;
-	background-color: #99B5C3;
-	width: 120px;
-	text-align: center;
-	padding: 4px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-nav a{
-	color: grey;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 1.5em;
-	list-style: none;
-	border-radius: 50%;
 }
 
 .round{
@@ -110,12 +110,21 @@ nav a{
 
 .writing{
 	text-indent: 10px;
+	font-family: "Hind Vadodara"
 }
 
 .pic1{
 	float: right;
 	padding-top: 0;
 	padding-bottom: 20px;
+}
+
+.pic2{
+	float: right;
+}
+
+.sub {
+	font-family: 'voces';
 }
 
 div.foot{
@@ -127,7 +136,7 @@ div.foot{
 	margin-top: 20px;
 }
 
-div.icon{
+div.icons{
 	float: right;
 	width: 20%;
 	padding: 1.2em;
